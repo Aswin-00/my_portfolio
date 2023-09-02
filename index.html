@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="header.css">   
+   <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+    <nav id="desktop-view">
+        <div class="logo">Aswin Girish</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">About</a></li>
+                <li><a href=certifcates.html>Certificate</a></li>
+                <li><a href="project.html">Projects</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Aswin Girish</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="certifcates.html" onclick="toggleMenu()">Certificate</a></li>
+                <li><a href="project.html" onclick="toggleMenu()">Projects</a></li>
+                
+            </div>
+        </div>
+    </nav>
+    
+   <section id="profile">
+            <div class="section_pic_container">
+                <img src="./asset/profile-pic.png" alt="dumypic">
+            </div>
+            <div class="section_text">
+                <p class="section_text_p1">Hello I'm</p>
+                <h1 class="title">Aswin Girish</h1>
+                
+                <div class="btn-container">
+                    <button class="btn btn-color-2" 
+                        onclick="window.open('./asset/resume-example.pdf')">
+                        Download cv
+                    </button>
+                    
+                    <button class="btn btn-color-1" 
+                        onclick="location.href='./#contact'">
+                        Contact info
+                    </button>
+                </div>
+                <div class="socials-container">
+                    <img 
+                        src="./asset/linkedin.png" alt="linkedin_profile"
+                        class="icon"
+                        onclick="location.href='https://www.linkedin.com/in/aswin-girish-a68853206/'"
+                    >
+                    
+                    <img 
+                        src="./asset/github.png" 
+                        alt="github"
+                        class="icon" 
+                        onclick="location.href='https://github.com/Aswin-00'"
+                    >
+                    
+
+                </div>
+            </div>
+   </section>
+
+   <!-- <section id="contact">
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./asset/email.png" alt="Email icon" class="icon contact-icon email-icon">
+        <p><a href="mailto:aswingirish00@gmail.com">aswingirish00@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./asset/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+        <p><a href="https://www.linkedin.com/in/aswin-girish-a68853206/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+    -->
+</body>
+<script src="script.js"></script>
+</html>

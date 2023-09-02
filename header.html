@@ -1,0 +1,81 @@
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="header.css">
+
+
+<style>
+    iframe {
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav, .nav-links{
+  display:flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+.nav-links{
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+
+}
+
+a:hover{
+color: gray;
+text-decoration: underline;
+text-underline-offset: 1rem;
+text-decoration-color:rgb(181,181,181) ;
+}
+
+.logo{
+  font-size: 2rem;
+}
+
+.logo:hover{
+  cursor: default;
+}
+
+
+
+</style>
+
+<nav id="desktop-view">
+    <div class="logo">Aswin Girish</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="index.html">About</a></li>
+            <li><a href=certifcates.html>Certificate</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">Aswin Girish</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+            <li><a href="certifcates.html"onclick="toggleMenu()" >Certificate</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+        </div>
+    </div>
+</nav>
