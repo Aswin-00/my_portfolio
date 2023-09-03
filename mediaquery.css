@@ -88,10 +88,9 @@
     }
     .section__pic-container {
       width: auto;
-      height: 20vw;
+      height: 46vw;
       justify-content: center;
     }
-
     .section__pic-container_contact img {
       width: auto;
       min-height: fit-content;
