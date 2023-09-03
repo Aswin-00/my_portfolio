@@ -11,34 +11,35 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav id="desktop-view">
-        <div class="logo">Aswin Girish</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="index.html">About</a></li>
-                <li><a href=certifcates.html>Certificate</a></li>
-                <li><a href="project.html">Projects</a></li>
-                
-            </ul>
+  <nav id="desktop-view">
+    <div class="logo">Aswin Girish</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="index.html">About</a></li>
+            <li><a href=certifcates.html>Certificate</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">Aswin Girish</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">Aswin Girish</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li><a href="index.html" onclick="toggleMenu()">About</a></li>
-                <li><a href="certifcates.html"onclick="toggleMenu()" >Certificate</a></li>
-                <li><a href="project.html" onclick="toggleMenu()">Projects</a></li>
-                
-            </div>
+        <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+            <li><a href="certifcates.html" onclick="toggleMenu()">Certificate</a></li>
+            <li><a href="project.html" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="contact.html" onclick="toggleMenu()">contact</a></li>
+            
         </div>
-    </nav>
-    
+    </div>
+</nav>
+
     <section id="projects">
         <h1 class="title">Projects</h1>
         <div class="experience-details-container">

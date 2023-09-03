@@ -104,6 +104,15 @@ section{
     height: 80vh;
 }
 
+/* contact */
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    gap: 1rem;
+}
 
 .section_pic_container{
     display: flex;
@@ -111,6 +120,21 @@ section{
     width: 600px;
     margin: auto 0;
 }
+
+.section_pic_container_contact{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.section_pic_container_contact img {
+    height: 50vh;
+    width: auto;
+    padding: 0;
+
+}
+
 
 .section_text{
     align-self: center;
@@ -201,14 +225,6 @@ section{
   }
   
 
-#contact {
-    position: relative;
-    bottom: -10px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 15vh;
-  }
   
 
 
